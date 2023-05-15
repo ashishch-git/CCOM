@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+<title>Update Notification</title>
+<style>
+{
+	padding:0;
+	margin:0;
+}
+
+
+#body
+{
+	margin-top:100px;
+}
+#body table
+{                
+                  
+                  top: 20px;
+                  right: 0;
+                  width: 50%;
+                  height: 100px;
+	margin:0 auto;
+	position:relative;
+	bottom:20px;
+                  border="1"
+}
+table th
+{
+	padding:20px;
+	border: solid #000000 1px;
+	border-collapse:collapse;
+}
+table td
+{
+	padding:20px;
+	border: solid #000000 1px;
+	border-collapse:collapse;
+                  color:ffffff;
+}
+#footer
+{
+	text-align:center;
+	position:absolute;
+	left:0;
+	right:0;
+	margin:0 auto;
+	bottom:50px;
+}
+#header
+{
+                  position:absolute;
+	left:0;
+	right:0;
+	margin:0 auto;
+	background:#ea232a;
+	width:100%;
+	height:50px;
+                  top:0px;
+	color:#fff;
+	font-size:36px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+#footer
+{
+	text-align:center;
+                  background:#ea232a;
+	position:absolute;
+	left:0;
+	right:0;
+	margin:0 auto;
+	bottom:0px;
+	color:#fff;
+	font-size:20px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+ body
+{
+	background:#FF9078;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-align:center;
+}
+a {
+    color: #fff;
+}
+.lbl1{
+margin-left: -138px
+}
+.lbl2{
+margin-left: -90px
+}
+
+</style>
+</head>
+<body>
+<div id="header">
+<label> Insert Notification</label>
+</div>
+<div id="body">
+
+<form method="post" action="insert.php">
+<label class="lbl1">Title: </label> <br>
+<input type="text" name="title">
+
+<br><br>
+<label class="lbl2"> Notification </label> <br>
+ <input  type="text" name="link">
+
+<br><br>
+<input style="background:#ea232a;color:#fff;font-size:15px;
+	font-family:Verdana, Geneva, sans-serif;" type="submit" value="Insert" name="submit">
+</form>
+</div>
+<div id="footer">
+<label>Created By: SVAP </label>
+</div>
+</body>
+</html>

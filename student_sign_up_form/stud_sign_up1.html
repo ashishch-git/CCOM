@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Student Sign Up Form</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+<style>
+ .lbl1{
+            margin-left:-75px;
+         }
+ .lbl2{
+            margin-left: -100px;
+         }
+ .lbl3{
+            margin-left: -95px;
+         }
+ .lbl4{
+            margin-left: -98px;
+         }
+ .lbl5{
+            margin-left: -90px;
+         }
+ .lbl6{
+			margin-left: -30px;
+		 } 	
+ 
+		  
+ .lbl7{
+			margin-left: -70px;
+		 }	
+ .lbl8{
+			margin-left: -30px;
+		 }	
+ .lbl9{
+			margin-left: -80px;
+		 }
+ .lbl10{
+			margin-left: -50px;
+		 }
+#header
+{
+	background:#ea232a;
+	width:100%;
+	height:50px;
+	color:#fff;
+	font-size:36px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+#footer
+{
+	text-align:center;
+                  background:#ea232a;
+	position:absolute;
+	left:0;
+	right:0;
+	margin:0 auto;
+	bottom:0px;
+	color:#fff;
+	font-size:20px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+ body
+{
+	background:#FF9078;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	gravity:left
+}
+ 
+ 
+</style>
+</head>
+<body>
+<div id="header">
+<label>Sign Up Form</label>
+</div>
+<div id="body">
+	<form action="completesignup_student.php" method="post">
+                  <label class="lbl1">UserName:</label><br>
+                  <input type="text" name="username" /><br>
+                  <label class="lbl2">Name:</label><br>
+                  <input type="text" name="name" /><br>
+                  <label class="lbl3">Roll No:</label><br>
+                  <input type="text" name="rollno" ><br>
+                  <label class="lbl4">Branch:</label><br>
+                  <input type="text" name="branch" /><br>
+                  <label class="lbl5">Section:</label><br>
+				  <input type="text" name="section" /><br>
+				  <label class="lbl6"> Semester: </label>
+				  <select style="background:#ea232a;color:#fff;" name="semester" class="select1"><br>
+                          <option value="first">I</option>
+                          <option value="second">II</option>
+                          <option value="third">III</option>
+                          <option value="fourth">IV</option>
+						  <option value="fifth">V</option>
+						  <option value="sixth">VI</option>
+						  <option value="seventh">VII</option>
+						  <option value="eight">VIII</option>
+                  </select><br>
+				  <label class="lbl7"> Year: </label>
+				 <select style="background:#ea232a;color:#fff;" name="year" class="select2"><br>
+						  <option value="first">I</option>
+						  <option value="second"> II</option>
+						  <option value="third"> III</option>
+						  <option value="fourth">IV </option>
+				 </select><br>
+				  <label class="lbl8">Mobile Number:</label><br>
+				  <input type="text" name="mobile" /><br>
+				  <label class="lbl9">Email Id:</label><br>
+				  <input type="text" name="email" /><br>
+				  <label class="lbl10">Upload Photo:</label><br>
+				  <input type="file" name="photo" /><br>
+
+
+                  <br><br>
+	<button style="background:#ea232a;color:#fff;font-size:15px;
+	font-family:Verdana, Geneva, sans-serif;"type="submit" name="btn-save">Save</button>
+	<button style="background:#ea232a;color:#fff;font-size:15px;
+	font-family:Verdana, Geneva, sans-serif;"type="reset" name="btn-edit">Edit</button>
+	<button style="background:#ea232a;color:#fff;font-size:15px;
+	font-family:Verdana, Geneva, sans-serif;"type="submit" name="btn-upload" >Next-></button>
+	
+	</form>
+    <br /><br />
+    
+</div>
+<div id="footer">
+<label>Created By: SVAP </label>
+</div>
+</body>
+</html>
+
+</body>
+</html>
