@@ -1,0 +1,17 @@
+<?xml version="1.0"?><svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title>registerbutton</title>
+ <defs>
+  <linearGradient id="linearGradient1697">
+   <stop id="stop1698" offset="0" stop-color="#c6db0e"/>
+   <stop id="stop1699" offset="1" stop-color="#6a7607"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1077" x1="1.34026" x2="1.34026" xlink:href="#linearGradient1697" y1="1.198801" y2="1.292248"/>
+ </defs>
+ <g>
+  <path d="m395.368164,205.390503c0,105.157013 -85.246368,190.403961 -190.403671,190.403961c-105.156731,0 -190.403673,-85.246948 -190.403673,-190.403671c0,-105.157021 85.246943,-190.403683 190.403673,-190.403683c105.157303,0 190.403671,85.246647 190.403671,190.403683l0,-0.00029z" id="path1070" stroke-dashoffset="0" stroke-miterlimit="4" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.364453" stroke="url(#linearGradient1077)" fill-rule="nonzero" fill="#007f00"/>
+  <path d="m341.278015,154.237c44.366974,-0.96698 -12.400024,-123.153107 -135.681015,-123.803101c-134.561287,-0.687103 -162.095791,110.961121 -140.719299,112.997101c0,0 36.864296,5.063019 71.939301,14.855988c56.472992,15.93103 125.548996,-13.06897 152.768997,-17.28299c30.342987,-4.697998 47.373016,15.391998 51.692017,13.233002l0,0z" id="path1713" stroke-width="0.25000000pt" fill-rule="evenodd" fill="#d4ffaa" opacity="0.9"/>
+  <title>Layer 1</title>
+  <text fill="#ffff00" stroke="#000000" stroke-width="0" x="170.93092" y="247.380325" font-size="52" font-family="Arial" text-anchor="middle" xml:space="preserve" transform="matrix(2.26338, 0, 0, 2.38509, -174.014, -297.554)" font-weight="bold" id="svg_2">Link</text>
+  <path id="svg_1" d="m324.887695,134.55629c39.600739,-0.711746 -11.067963,-90.645084 -121.105362,-91.123512c-120.10585,-0.505722 -144.682438,81.671356 -125.602356,83.169914c0,0 32.904137,3.726578 64.211197,10.93454c50.406326,11.725784 112.061676,-9.619217 136.357605,-12.720886c27.083313,-3.457901 42.283875,11.329041 46.138916,9.739944l0,0z" stroke-width="58" fill-rule="evenodd" fill="#e2f7cd"/>
+ </g>
+</svg>
